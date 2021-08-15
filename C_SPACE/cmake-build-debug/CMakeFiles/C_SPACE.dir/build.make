@@ -52,10 +52,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CODE\C_SPACE
+CMAKE_SOURCE_DIR = D:\CODE\leetcode\C_SPACE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\CODE\C_SPACE\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CODE\leetcode\C_SPACE\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/C_SPACE.dir/depend.make
@@ -67,45 +67,60 @@ include CMakeFiles/C_SPACE.dir/flags.make
 
 CMakeFiles/C_SPACE.dir/main.c.obj: CMakeFiles/C_SPACE.dir/flags.make
 CMakeFiles/C_SPACE.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\C_SPACE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_SPACE.dir/main.c.obj"
-	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_SPACE.dir\main.c.obj -c D:\CODE\C_SPACE\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\leetcode\C_SPACE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_SPACE.dir/main.c.obj"
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_SPACE.dir\main.c.obj -c D:\CODE\leetcode\C_SPACE\main.c
 
 CMakeFiles/C_SPACE.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_SPACE.dir/main.c.i"
-	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\C_SPACE\main.c > CMakeFiles\C_SPACE.dir\main.c.i
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\leetcode\C_SPACE\main.c > CMakeFiles\C_SPACE.dir\main.c.i
 
 CMakeFiles/C_SPACE.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SPACE.dir/main.c.s"
-	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\C_SPACE\main.c -o CMakeFiles\C_SPACE.dir\main.c.s
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\leetcode\C_SPACE\main.c -o CMakeFiles\C_SPACE.dir\main.c.s
 
 CMakeFiles/C_SPACE.dir/02.c.obj: CMakeFiles/C_SPACE.dir/flags.make
 CMakeFiles/C_SPACE.dir/02.c.obj: ../02.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\C_SPACE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C_SPACE.dir/02.c.obj"
-	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_SPACE.dir\02.c.obj -c D:\CODE\C_SPACE\02.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\leetcode\C_SPACE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C_SPACE.dir/02.c.obj"
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_SPACE.dir\02.c.obj -c D:\CODE\leetcode\C_SPACE\02.c
 
 CMakeFiles/C_SPACE.dir/02.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_SPACE.dir/02.c.i"
-	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\C_SPACE\02.c > CMakeFiles\C_SPACE.dir\02.c.i
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\leetcode\C_SPACE\02.c > CMakeFiles\C_SPACE.dir\02.c.i
 
 CMakeFiles/C_SPACE.dir/02.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SPACE.dir/02.c.s"
-	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\C_SPACE\02.c -o CMakeFiles\C_SPACE.dir\02.c.s
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\leetcode\C_SPACE\02.c -o CMakeFiles\C_SPACE.dir\02.c.s
+
+CMakeFiles/C_SPACE.dir/017/letterCombinations.c.obj: CMakeFiles/C_SPACE.dir/flags.make
+CMakeFiles/C_SPACE.dir/017/letterCombinations.c.obj: ../017/letterCombinations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\leetcode\C_SPACE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C_SPACE.dir/017/letterCombinations.c.obj"
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_SPACE.dir\017\letterCombinations.c.obj -c D:\CODE\leetcode\C_SPACE\017\letterCombinations.c
+
+CMakeFiles/C_SPACE.dir/017/letterCombinations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_SPACE.dir/017/letterCombinations.c.i"
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\leetcode\C_SPACE\017\letterCombinations.c > CMakeFiles\C_SPACE.dir\017\letterCombinations.c.i
+
+CMakeFiles/C_SPACE.dir/017/letterCombinations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SPACE.dir/017/letterCombinations.c.s"
+	D:\Program\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\leetcode\C_SPACE\017\letterCombinations.c -o CMakeFiles\C_SPACE.dir\017\letterCombinations.c.s
 
 # Object files for target C_SPACE
 C_SPACE_OBJECTS = \
 "CMakeFiles/C_SPACE.dir/main.c.obj" \
-"CMakeFiles/C_SPACE.dir/02.c.obj"
+"CMakeFiles/C_SPACE.dir/02.c.obj" \
+"CMakeFiles/C_SPACE.dir/017/letterCombinations.c.obj"
 
 # External object files for target C_SPACE
 C_SPACE_EXTERNAL_OBJECTS =
 
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/main.c.obj
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/02.c.obj
+C_SPACE.exe: CMakeFiles/C_SPACE.dir/017/letterCombinations.c.obj
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/build.make
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/linklibs.rsp
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/objects1.rsp
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CODE\C_SPACE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable C_SPACE.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CODE\leetcode\C_SPACE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable C_SPACE.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C_SPACE.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +132,6 @@ CMakeFiles/C_SPACE.dir/clean:
 .PHONY : CMakeFiles/C_SPACE.dir/clean
 
 CMakeFiles/C_SPACE.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CODE\C_SPACE D:\CODE\C_SPACE D:\CODE\C_SPACE\cmake-build-debug D:\CODE\C_SPACE\cmake-build-debug D:\CODE\C_SPACE\cmake-build-debug\CMakeFiles\C_SPACE.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CODE\leetcode\C_SPACE D:\CODE\leetcode\C_SPACE D:\CODE\leetcode\C_SPACE\cmake-build-debug D:\CODE\leetcode\C_SPACE\cmake-build-debug D:\CODE\leetcode\C_SPACE\cmake-build-debug\CMakeFiles\C_SPACE.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/C_SPACE.dir/depend
 

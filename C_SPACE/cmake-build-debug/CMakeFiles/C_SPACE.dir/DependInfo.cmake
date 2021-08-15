@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/CODE/C_SPACE/02.c" "D:/CODE/C_SPACE/cmake-build-debug/CMakeFiles/C_SPACE.dir/02.c.obj"
-  "D:/CODE/C_SPACE/main.c" "D:/CODE/C_SPACE/cmake-build-debug/CMakeFiles/C_SPACE.dir/main.c.obj"
+  "D:/CODE/leetcode/C_SPACE/017/letterCombinations.c" "D:/CODE/leetcode/C_SPACE/cmake-build-debug/CMakeFiles/C_SPACE.dir/017/letterCombinations.c.obj"
+  "D:/CODE/leetcode/C_SPACE/02.c" "D:/CODE/leetcode/C_SPACE/cmake-build-debug/CMakeFiles/C_SPACE.dir/02.c.obj"
+  "D:/CODE/leetcode/C_SPACE/main.c" "D:/CODE/leetcode/C_SPACE/cmake-build-debug/CMakeFiles/C_SPACE.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

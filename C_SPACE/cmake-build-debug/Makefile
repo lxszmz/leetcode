@@ -56,10 +56,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CODE\C_SPACE
+CMAKE_SOURCE_DIR = D:\CODE\leetcode\C_SPACE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\CODE\C_SPACE\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CODE\leetcode\C_SPACE\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\C_SPACE\cmake-build-debug\CMakeFiles D:\CODE\C_SPACE\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\leetcode\C_SPACE\cmake-build-debug\CMakeFiles D:\CODE\leetcode\C_SPACE\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\C_SPACE\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\leetcode\C_SPACE\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ C_SPACE: cmake_check_build_system
 C_SPACE/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/build
 .PHONY : C_SPACE/fast
+
+017/letterCombinations.obj: 017/letterCombinations.c.obj
+.PHONY : 017/letterCombinations.obj
+
+# target to build an object file
+017/letterCombinations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/017/letterCombinations.c.obj
+.PHONY : 017/letterCombinations.c.obj
+
+017/letterCombinations.i: 017/letterCombinations.c.i
+.PHONY : 017/letterCombinations.i
+
+# target to preprocess a source file
+017/letterCombinations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/017/letterCombinations.c.i
+.PHONY : 017/letterCombinations.c.i
+
+017/letterCombinations.s: 017/letterCombinations.c.s
+.PHONY : 017/letterCombinations.s
+
+# target to generate assembly for a file
+017/letterCombinations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/017/letterCombinations.c.s
+.PHONY : 017/letterCombinations.c.s
 
 02.obj: 02.c.obj
 .PHONY : 02.obj
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_SPACE
+	@echo ... 017/letterCombinations.obj
+	@echo ... 017/letterCombinations.i
+	@echo ... 017/letterCombinations.s
 	@echo ... 02.obj
 	@echo ... 02.i
 	@echo ... 02.s
