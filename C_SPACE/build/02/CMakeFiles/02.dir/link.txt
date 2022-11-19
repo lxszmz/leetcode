@@ -1,2 +1,0 @@
-D:\Program\MinGW\bin\ar.exe qc lib02.a  CMakeFiles/02.dir/02.c.obj
-D:\Program\MinGW\bin\ranlib.exe lib02.a
