@@ -1,0 +1,2 @@
+D:\Program\MinGW\bin\ar.exe qc lib017.a  CMakeFiles/017.dir/letterCombinations.c.obj
+D:\Program\MinGW\bin\ranlib.exe lib017.a

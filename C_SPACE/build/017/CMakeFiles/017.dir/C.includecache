@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CODE/github/leetcode/C_SPACE/017/letterCombinations.c
+malloc.h
+-
+string.h
+-
+letterCombinations.h
+D:/CODE/github/leetcode/C_SPACE/017/letterCombinations.h
+
+D:/CODE/github/leetcode/C_SPACE/017/letterCombinations.h
+
