@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/CODE/github/leetcode/C_SPACE/build",
+  "command": "D:\\Program\\MinGW\\bin\\gcc.exe  @CMakeFiles/C_SPACE.dir/includes_C.rsp -g   -std=gnu99 -o CMakeFiles\\C_SPACE.dir\\main.c.obj   -c D:\\CODE\\github\\leetcode\\C_SPACE\\main.c",
+  "file": "D:/CODE/github/leetcode/C_SPACE/main.c"
+},
+{
+  "directory": "D:/CODE/github/leetcode/C_SPACE/build/017",
+  "command": "D:\\Program\\MinGW\\bin\\gcc.exe  @CMakeFiles/017.dir/includes_C.rsp -g   -std=gnu99 -o CMakeFiles\\017.dir\\letterCombinations.c.obj   -c D:\\CODE\\github\\leetcode\\C_SPACE\\017\\letterCombinations.c",
+  "file": "D:/CODE/github/leetcode/C_SPACE/017/letterCombinations.c"
+},
+{
+  "directory": "D:/CODE/github/leetcode/C_SPACE/build/02",
+  "command": "D:\\Program\\MinGW\\bin\\gcc.exe  @CMakeFiles/02.dir/includes_C.rsp -g   -std=gnu99 -o CMakeFiles\\02.dir\\02.c.obj   -c D:\\CODE\\github\\leetcode\\C_SPACE\\02\\02.c",
+  "file": "D:/CODE/github/leetcode/C_SPACE/02/02.c"
+}
+]
