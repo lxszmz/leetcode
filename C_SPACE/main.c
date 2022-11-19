@@ -4,12 +4,9 @@
 int main()
 {
     int ret = test();
-    if (ret == 0)
-    {
+    if (ret == 0) {
         printf("SUCCESS");
-    }
-    else
-    {
+    } else {
         printf("FAIL");
     }
     return 0;

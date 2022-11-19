@@ -1,0 +1,2 @@
+D:\Program\MinGW\bin\ar.exe qc lib560.a  CMakeFiles/560.dir/560.c.obj
+D:\Program\MinGW\bin\ranlib.exe lib560.a

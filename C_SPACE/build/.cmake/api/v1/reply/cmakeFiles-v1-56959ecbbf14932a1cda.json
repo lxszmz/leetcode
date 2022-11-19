@@ -116,6 +116,12 @@
 		},
 		{
 			"path" : "02/CMakeLists.txt"
+		},
+		{
+			"path" : "1732/CMakeLists.txt"
+		},
+		{
+			"path" : "560/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -13,5 +13,15 @@
   "directory": "D:/CODE/github/leetcode/C_SPACE/build/02",
   "command": "D:\\Program\\MinGW\\bin\\gcc.exe  @CMakeFiles/02.dir/includes_C.rsp -g   -std=gnu99 -o CMakeFiles\\02.dir\\02.c.obj   -c D:\\CODE\\github\\leetcode\\C_SPACE\\02\\02.c",
   "file": "D:/CODE/github/leetcode/C_SPACE/02/02.c"
+},
+{
+  "directory": "D:/CODE/github/leetcode/C_SPACE/build/1732",
+  "command": "D:\\Program\\MinGW\\bin\\gcc.exe  @CMakeFiles/1732.dir/includes_C.rsp -g   -std=gnu99 -o CMakeFiles\\1732.dir\\1732.c.obj   -c D:\\CODE\\github\\leetcode\\C_SPACE\\1732\\1732.c",
+  "file": "D:/CODE/github/leetcode/C_SPACE/1732/1732.c"
+},
+{
+  "directory": "D:/CODE/github/leetcode/C_SPACE/build/560",
+  "command": "D:\\Program\\MinGW\\bin\\gcc.exe  @CMakeFiles/560.dir/includes_C.rsp -g   -std=gnu99 -o CMakeFiles\\560.dir\\560.c.obj   -c D:\\CODE\\github\\leetcode\\C_SPACE\\560\\560.c",
+  "file": "D:/CODE/github/leetcode/C_SPACE/560/560.c"
 }
 ]

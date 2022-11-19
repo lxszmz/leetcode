@@ -96,14 +96,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles\progress.marks
-	$(MAKE) -f CMakeFiles\Makefile2 all
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles D:\CODE\github\leetcode\C_SPACE\build\1732\CMakeFiles\progress.marks
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f CMakeFiles\Makefile2 1732/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f CMakeFiles\Makefile2 1732/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,110 +113,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f CMakeFiles\Makefile2 1732/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f CMakeFiles\Makefile2 1732/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named C_SPACE
+# Convenience name for target.
+1732/CMakeFiles/1732.dir/rule:
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f CMakeFiles\Makefile2 1732/CMakeFiles/1732.dir/rule
+.PHONY : 1732/CMakeFiles/1732.dir/rule
 
-# Build rule for target.
-C_SPACE: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 C_SPACE
-.PHONY : C_SPACE
+# Convenience name for target.
+1732: 1732/CMakeFiles/1732.dir/rule
 
-# fast build rule for target.
-C_SPACE/fast:
-	$(MAKE) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/build
-.PHONY : C_SPACE/fast
-
-#=============================================================================
-# Target rules for targets named 017
-
-# Build rule for target.
-017: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 017
-.PHONY : 017
-
-# fast build rule for target.
-017/fast:
-	$(MAKE) -f 017\CMakeFiles\017.dir\build.make 017/CMakeFiles/017.dir/build
-.PHONY : 017/fast
-
-#=============================================================================
-# Target rules for targets named 02
-
-# Build rule for target.
-02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 02
-.PHONY : 02
-
-# fast build rule for target.
-02/fast:
-	$(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/build
-.PHONY : 02/fast
-
-#=============================================================================
-# Target rules for targets named 1732
-
-# Build rule for target.
-1732: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1732
 .PHONY : 1732
 
 # fast build rule for target.
 1732/fast:
-	$(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/build
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/build
 .PHONY : 1732/fast
 
-#=============================================================================
-# Target rules for targets named 560
+1732.obj: 1732.c.obj
 
-# Build rule for target.
-560: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 560
-.PHONY : 560
-
-# fast build rule for target.
-560/fast:
-	$(MAKE) -f 560\CMakeFiles\560.dir\build.make 560/CMakeFiles/560.dir/build
-.PHONY : 560/fast
-
-main.obj: main.c.obj
-
-.PHONY : main.obj
+.PHONY : 1732.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/main.c.obj
-.PHONY : main.c.obj
+1732.c.obj:
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/1732.c.obj
+.PHONY : 1732.c.obj
 
-main.i: main.c.i
+1732.i: 1732.c.i
 
-.PHONY : main.i
+.PHONY : 1732.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/main.c.i
-.PHONY : main.c.i
+1732.c.i:
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/1732.c.i
+.PHONY : 1732.c.i
 
-main.s: main.c.s
+1732.s: 1732.c.s
 
-.PHONY : main.s
+.PHONY : 1732.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/main.c.s
-.PHONY : main.c.s
+1732.c.s:
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/1732.c.s
+.PHONY : 1732.c.s
 
 # Help Target
 help:
@@ -226,14 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 017
-	@echo ... 02
 	@echo ... 1732
-	@echo ... 560
-	@echo ... C_SPACE
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... 1732.obj
+	@echo ... 1732.i
+	@echo ... 1732.s
 .PHONY : help
 
 
@@ -245,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\CODE\github\leetcode\C_SPACE\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

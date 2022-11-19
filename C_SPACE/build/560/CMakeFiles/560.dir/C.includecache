@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CODE/github/leetcode/C_SPACE/560/560.c
+test.h
+D:/CODE/github/leetcode/C_SPACE/560/test.h
+
+D:/CODE/github/leetcode/C_SPACE/560/test.h
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+

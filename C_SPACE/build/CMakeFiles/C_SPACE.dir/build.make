@@ -96,7 +96,7 @@ C_SPACE_EXTERNAL_OBJECTS =
 
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/main.c.obj
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/build.make
-C_SPACE.exe: 017/lib017.a
+C_SPACE.exe: 560/lib560.a
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/linklibs.rsp
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/objects1.rsp
 C_SPACE.exe: CMakeFiles/C_SPACE.dir/link.txt

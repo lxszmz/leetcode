@@ -72,12 +72,16 @@ CMAKE_BINARY_DIR = D:\CODE\github\leetcode\C_SPACE\build
 all: CMakeFiles/C_SPACE.dir/all
 all: 017/all
 all: 02/all
+all: 1732/all
+all: 560/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: 017/preinstall
 preinstall: 02/preinstall
+preinstall: 1732/preinstall
+preinstall: 560/preinstall
 
 .PHONY : preinstall
 
@@ -85,6 +89,8 @@ preinstall: 02/preinstall
 clean: CMakeFiles/C_SPACE.dir/clean
 clean: 017/clean
 clean: 02/clean
+clean: 1732/clean
+clean: 560/clean
 
 .PHONY : clean
 
@@ -125,13 +131,49 @@ clean: 02/clean
 .PHONY : 02/clean
 
 #=============================================================================
+# Directory level rules for directory 1732
+
+# Recursive "all" directory target.
+1732/all: 1732/CMakeFiles/1732.dir/all
+
+.PHONY : 1732/all
+
+# Recursive "preinstall" directory target.
+1732/preinstall:
+
+.PHONY : 1732/preinstall
+
+# Recursive "clean" directory target.
+1732/clean: 1732/CMakeFiles/1732.dir/clean
+
+.PHONY : 1732/clean
+
+#=============================================================================
+# Directory level rules for directory 560
+
+# Recursive "all" directory target.
+560/all: 560/CMakeFiles/560.dir/all
+
+.PHONY : 560/all
+
+# Recursive "preinstall" directory target.
+560/preinstall:
+
+.PHONY : 560/preinstall
+
+# Recursive "clean" directory target.
+560/clean: 560/CMakeFiles/560.dir/clean
+
+.PHONY : 560/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/C_SPACE.dir
 
 # All Build rule for target.
-CMakeFiles/C_SPACE.dir/all: 017/CMakeFiles/017.dir/all
+CMakeFiles/C_SPACE.dir/all: 560/CMakeFiles/560.dir/all
 	$(MAKE) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/depend
 	$(MAKE) -f CMakeFiles\C_SPACE.dir\build.make CMakeFiles/C_SPACE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles --progress-num=5,6 "Built target C_SPACE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles --progress-num=9,10 "Built target C_SPACE"
 .PHONY : CMakeFiles/C_SPACE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -204,6 +246,60 @@ CMakeFiles/C_SPACE.dir/clean:
 02/CMakeFiles/02.dir/clean:
 	$(MAKE) -f 02\CMakeFiles\02.dir\build.make 02/CMakeFiles/02.dir/clean
 .PHONY : 02/CMakeFiles/02.dir/clean
+
+#=============================================================================
+# Target rules for target 1732/CMakeFiles/1732.dir
+
+# All Build rule for target.
+1732/CMakeFiles/1732.dir/all:
+	$(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/depend
+	$(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles --progress-num=5,6 "Built target 1732"
+.PHONY : 1732/CMakeFiles/1732.dir/all
+
+# Build rule for subdir invocation for target.
+1732/CMakeFiles/1732.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 1732/CMakeFiles/1732.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles 0
+.PHONY : 1732/CMakeFiles/1732.dir/rule
+
+# Convenience name for target.
+1732: 1732/CMakeFiles/1732.dir/rule
+
+.PHONY : 1732
+
+# clean rule for target.
+1732/CMakeFiles/1732.dir/clean:
+	$(MAKE) -f 1732\CMakeFiles\1732.dir\build.make 1732/CMakeFiles/1732.dir/clean
+.PHONY : 1732/CMakeFiles/1732.dir/clean
+
+#=============================================================================
+# Target rules for target 560/CMakeFiles/560.dir
+
+# All Build rule for target.
+560/CMakeFiles/560.dir/all:
+	$(MAKE) -f 560\CMakeFiles\560.dir\build.make 560/CMakeFiles/560.dir/depend
+	$(MAKE) -f 560\CMakeFiles\560.dir\build.make 560/CMakeFiles/560.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles --progress-num=7,8 "Built target 560"
+.PHONY : 560/CMakeFiles/560.dir/all
+
+# Build rule for subdir invocation for target.
+560/CMakeFiles/560.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 560/CMakeFiles/560.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CODE\github\leetcode\C_SPACE\build\CMakeFiles 0
+.PHONY : 560/CMakeFiles/560.dir/rule
+
+# Convenience name for target.
+560: 560/CMakeFiles/560.dir/rule
+
+.PHONY : 560
+
+# clean rule for target.
+560/CMakeFiles/560.dir/clean:
+	$(MAKE) -f 560\CMakeFiles\560.dir\build.make 560/CMakeFiles/560.dir/clean
+.PHONY : 560/CMakeFiles/560.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

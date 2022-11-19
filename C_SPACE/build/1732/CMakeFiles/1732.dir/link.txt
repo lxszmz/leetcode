@@ -1,0 +1,2 @@
+D:\Program\MinGW\bin\ar.exe qc lib1732.a  CMakeFiles/1732.dir/1732.c.obj
+D:\Program\MinGW\bin\ranlib.exe lib1732.a

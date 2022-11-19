@@ -9,7 +9,13 @@ add_subdirectory(./017)
 
 include_directories(./02)
 add_subdirectory(./02)
+include_directories(./1732)
+add_subdirectory(./1732)
+
+include_directories(./560)
+add_subdirectory(./560)
+
 
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS})
-target_link_libraries(${PROJECT_NAME}  017)
+target_link_libraries(${PROJECT_NAME}  560)
